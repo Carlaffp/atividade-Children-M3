@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  width: 250px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 8px;
+
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
